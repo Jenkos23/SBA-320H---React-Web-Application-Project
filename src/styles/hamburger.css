@@ -1,0 +1,60 @@
+.hamburger {
+    /* display: none; Hide it by default */
+    cursor: pointer;
+}
+
+.hamburger .burger {
+    width: 30px;
+    height: 4px;
+    margin: 6px 0;
+    background-color: #d6c3c3;
+    transition: 0.4s;
+}
+
+/* When the menu is open */
+.hamburger.open .burger1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.hamburger.open .burger2 {
+    opacity: 0;
+}
+
+.hamburger.open .burger3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+/* Show hamburger in mobile view */
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+}
+
+.navbar nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .navbar nav {
+        display: none; /* Hide the default nav items for mobile view */
+    }
+
+    .navbar .hamburger.open + nav {
+        display: flex; /* Show nav when hamburger is open */
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        right: 20px;
+        background-color: white;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .navbar .hamburger.open + nav a {
+        margin: 5px 0;
+    }
+}
+

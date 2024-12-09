@@ -1,0 +1,37 @@
+
+.navbar{
+    display: flex;
+    border: 1px solid #007BFF;
+    background-color:#1e3846;
+    padding: 2%;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+
+.navbar a {
+    text-decoration: none; /* Remove underline from links */
+    color: #e90e0e; /* Set text color */
+    padding: 5px 50px; /* Add padding for better hit area */
+   
+}
+
+.navbar a:hover {
+    background-color: #007BFF; /* Background color on hover */
+    color: #FFF; /* Text color on hover */
+}
+
+.navbar-Link {
+    display: flex; /* Make the links container a flex container */
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Reset padding */
+    margin: 0; /* Reset margin */
+}
+
+.navbar nav {
+    display: flex;
+    
+}
+

@@ -1,0 +1,99 @@
+
+/* styles.css */
+.Home{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.book-cards {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 16px; 
+  margin: 10px; 
+  width: 200px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  background-color: #1e3846;
+  color: white;
+  text-align: center;
+  
+}
+
+h2{
+  text-align: center;
+  font-family: "Fontdiner Swanky", serif;
+    font-weight: 800;
+    font-style:normal;
+    font-size: xx-large;
+  
+
+}
+
+
+.book-description h3{
+  color:rgb(64, 21, 182);
+    font-family: "Fontdiner Swanky", serif;
+    font-weight: 800;
+    font-style:normal;
+    font-size: xx-large;
+  
+
+}
+
+.book-description p {
+  font-family: "Playwrite FR Trad", cursive;
+  font-size: medium;
+}
+
+body {
+  background-color: #dfc4a9
+}
+
+.Home img{
+  width: 100px;
+}
+
+.book-cards button{
+  padding: 10px 15px;
+  background-color: #3367a0;
+  color: rgb(216, 198, 198);
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-family: "Playwrite FR Trad", cursive;
+}
+
+.book-cards button:hover{
+  background-color: rgb(6, 6, 85);
+}
+
+
+.Book-Info{
+  display: flex;
+  flex-wrap: wrap;
+}
+.Book-Info p{
+  font-family:"Courgette", serif;
+  color: #e2c6c6;
+}
+
+.Book-Info h3{
+  font-family:"Courgette", serif;
+  color: #e2c6c6;
+}
+
+
+#character {
+  color: #dfc4a9;
+  font-family: "Fontdiner Swanky", serif;
+    font-weight: 800;
+    font-style:normal;
+   
+}
+
+#char{
+  color: #dfc4a9;
+  font-family: "Playwrite FR Trad", cursive;
+  font-size: medium;
+}
