@@ -5,6 +5,12 @@
   flex-wrap: wrap;
 }
 
+#Align{
+  text-align:center;
+  font-family: "Fontdiner Swanky", serif;
+  font-size: larger;
+
+}
 .book-cards {
   border: 1px solid #ccc;
   border-radius: 5px;
