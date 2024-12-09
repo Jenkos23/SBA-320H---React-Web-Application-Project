@@ -5,7 +5,7 @@ export default function BookCharacter(){
 
     return(
         <>
-        <h3 id="Align">POTTERS-CHARACTERS</h3>
+        <h3 id="Align">"Meet the Magic Makers: Exploring the Iconic Characters of Harry Potter"</h3>
         <div className="Home">
             
             {characters.map((character) => (
