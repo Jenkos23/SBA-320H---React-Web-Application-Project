@@ -26,8 +26,10 @@ export default function BookSearchForm() {
   function handleInputChange(e) {
     (setSearchInput(e.target.value));
   }
-    
+   
     return (
+      <>
+      <h3 id='Align'>Find Your Magic: Search the World of Harry Potter</h3>
       <div className="search-container">
         <form onSubmit={handleSearch} action="">
           <label htmlFor="">
@@ -60,6 +62,10 @@ export default function BookSearchForm() {
         </form>
        
       </div>
+
+      </>
+
+      
     );
   }
   
