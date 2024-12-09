@@ -39,8 +39,9 @@ export default function Home(){
     ) : error ? (
     <>{error}</>
     ): (
+        <>
 
-
+        <h3 id="Align">"Pick Your Potion: Choosing the Perfect Harry Potter Book for Your Next Adventure"</h3>
         <div className="Home">
             <BookSearchForm/>
     
@@ -67,6 +68,7 @@ export default function Home(){
              )}
 
       </div>
+      </>
     )
     
     
