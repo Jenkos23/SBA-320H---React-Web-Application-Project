@@ -4,9 +4,13 @@ export default function BookCharacter(){
     const {characters} = UseCharacter();
 
     return(
+        <>
+        <h3 id="Align">POTTERS-CHARACTERS</h3>
         <div className="Home">
+            
             {characters.map((character) => (
                 <div key={character.index} className="book-cards" >
+                    
                     <h3 id="character">{character.fullName}</h3>
                     <img
                     src= {character.image}
@@ -38,6 +42,7 @@ export default function BookCharacter(){
                 </div>
             ))}
         </div>
+        </>
     )
 
 }
