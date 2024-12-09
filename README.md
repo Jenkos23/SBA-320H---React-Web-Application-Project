@@ -7,7 +7,7 @@ This is a React-based web application created using **Vite** that allows users t
 ## Live Site
 
 You can view the deployed app here:  
-[Harry Potter Book Finder - Live Site](https://sba-320h-react-web-application-project.onrender.com)
+[Harry Potter Book Finder - Live Site](https://sba-320h-react-web-application-jennkosy.onrender.com)
 
 ## Technologies Used
 
