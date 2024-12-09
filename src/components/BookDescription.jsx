@@ -5,6 +5,8 @@ export default function BookDescription(){
    
 
     return(
+        <>
+        <h3  id="Align">"Uncover the Magic: A Sneak Peek into Harry Potter"</h3>
         <div className="Book-Info">
             {comicBooks.map((book) => (
                 <div key = {book.number} className="book-cards" >
@@ -19,5 +21,6 @@ export default function BookDescription(){
             }
 
         </div>
+        </>
     )
 }
