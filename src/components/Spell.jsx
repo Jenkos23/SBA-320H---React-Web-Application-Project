@@ -8,6 +8,8 @@ export default function SpellBound(){
     }
 
   return(
+    <>
+     <h3 id="Align">"Accio Magic! Choosing Your Perfect Spell in the World of Harry Potter"</h3>
     <div className="Home">
         {spells && spells.length > 0 ? (
             spells.map(spell => (
@@ -19,8 +21,9 @@ export default function SpellBound(){
             )) 
         ): (
 
-            <div>No spells found.</div>
+            <div>No spells found!</div>
         )}
     </div>
+    </>
   )
 }
