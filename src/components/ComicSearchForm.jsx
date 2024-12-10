@@ -17,6 +17,8 @@ export default function BookSearchForm() {
       if (filteredBooks.length === 0){
         alert(`No books found! try keywords: sorcerer's, stone, chamber, secrets, prisoner, Azkaban, fire, Half-blood, prince `);
       }
+      else(filteredBooks.length === '')
+      alert(`Input a book title! try keywords: sorcerer's, stone, chamber, secrets, prisoner, Azkaban, fire, Half-blood, prince`)
       (setFilteredData(filteredBooks))
 
   
